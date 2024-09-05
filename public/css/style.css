@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hovers{
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.hovers:hover{
+  opacity: 0.8;
+}
+.icon{
+  cursor: pointer !important;
+  font-size: 16px;
+}
+.text-black{
+  color: #000 !important;
+}
+.text-red{
+  color: #B65849;
+}
+.bg-red{
+  background: linear-gradient(to right , #B35749,#F26549,#606060);
+}
+.btn-red {
+  background: #B65849 !important;
+  color: #fff !important;
+  transition: all 0.2s;
+  border-radius: 20px;
+}
+.btn-red:hover{
+  opacity: 0.8 ;
+}
+.nav-item .nav-link{
+  color:#606060;
+  margin-right: 40px;
+}
+.nav-item.active .nav-link{
+  color:#FFF;
+  background-color: #2D2A2B;
+  border-radius: 20px;
+}
+.trans-img img{
+  transform: translateX(-150px);
+}
+@media (max-width:1200px) {
+  .trans-img img{
+    transform: translateX(-50px);
+  }
+}
+@media (max-width:992px) {
+  .trans-img img{
+    transform: translateX(0);
+  }
+}
+.indicator{
+  width: 40px;
+  height: 6px;
+  border-radius: 20px;
+  border: 1px solid #737373;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.indicator.active{
+  width: 60px;
+  height: 6px;
+  background-color: #000;
+  border-radius: 20px;
+  border: 1px solid #737373;
+}
+.outline-hover{
+  color: #0B7077;
+  transition: all 0.2s;
+}
+.outline-hover:hover{
+  background-color: #0B7077;
+  color: #FFF;
+}
+.img-and-bg img {
+  padding: 20px;
+}
+.img-and-bg {
+  background: #d2e6e4;
+  border-radius: 20px;
+}
+.view-all button {
+  background: #f5f5f5;
+  border: 2px solid #f5f5f5;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+.footer {
+  background-image: url("../img/FooterBackground.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.the-input input {
+  background: #ffffff;
+  border: 1px solid #262d76;
+  padding: 15px;
+  border-radius: 15px;
+  width: 100%;
+  outline: none;
+}
+.the-input input::placeholder {
+  color: #0b7077;
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+.the-input button {
+  background: #04090a;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  position: absolute;
+  right: 4px;
+  margin-top: 5px;
+}
+.icons-footer ul li {
+  list-style: none;
+}
+.icons-footer ul li a {
+  text-decoration: none;
+}
